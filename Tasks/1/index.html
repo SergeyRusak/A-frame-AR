@@ -4,10 +4,15 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
+            <a-assets>
+                <img id="globe" src="https://codehs.com/uploads/b765a3b45d038dcac22c2cb9f5ba0331">
+
+
+            </a-assets>
+
             <a-marker preset='hiro'>
                 <a-sphere 
-                src="https://codehs.com/uploads/b765a3b45d038dcac22c2cb9f5ba0331
-                raduis="5">
+                src="#globe" raduis="5">
                 </a-sphere>
             </a-marker>
 
